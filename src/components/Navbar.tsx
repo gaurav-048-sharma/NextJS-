@@ -1,4 +1,4 @@
-import Link from 'next/link'
+ import Link from 'next/link'
 import React from 'react'
 
 const Navbar = () => {
@@ -12,6 +12,12 @@ const Navbar = () => {
                     </li>
                     <li>About
                       <Link href="/about">About</Link>
+                    </li>
+                    <li>client component
+                      <Link href="/clientcomp">client component</Link>
+                    </li>
+                    <li>Server Components
+                      <Link href="/servercomponent">Server Components</Link>
                     </li>
                     <li>Contact
                       <Link href="/contact">Contact</Link>
